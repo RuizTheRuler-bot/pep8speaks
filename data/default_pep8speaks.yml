@@ -35,6 +35,6 @@ message:  # Customize the comment made by the bot
         header: ""
         footer: ""
     updated:  # Messages when a PR is updated
-        header: "# Hi! \n\nThis is my message to you...."
+        header: "# Hi! :wave: \n\n> I'll scan your program each time you submit it, to check for syntax and style errors. I'll create a list of those errors for you (if they exist). Each error will include a line number, and what the error is.\n\n-[ ] Fix each error outlined below. It may be helpful to have both this page, and your program open on replit while you're fixing the code.\n-[ ] Commit/push your updated program, then re-open/refresh this pull request to see if I found more syntax or style errors that need to be fixed.\n\n##meow"
         footer: "data/default_pep8speaks.yml"
     no_errors: "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
