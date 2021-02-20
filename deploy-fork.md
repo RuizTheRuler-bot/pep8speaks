@@ -1,3 +1,4 @@
+https://github.com/OrkoHunter/pep8speaks/wiki/Instructions-to-deploy-a-fork
 # Instructions to deploy a fork
 
 Note : The simplest (not recommended) solution is to add the bot @RuizTheRuler-bot as a collaborator to the repositories you want this service to work for. But that does not guarantee the privacy of your code. The following instructions are hence written for maintaining the privacy.
