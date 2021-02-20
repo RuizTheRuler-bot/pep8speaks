@@ -1,10 +1,6 @@
-nstructions to deploy a fork
-Himanshu Mishra edited this page on May 7, 2020 · 8 revisions
-Hello !
+Instructions to deploy a fork
 
-You must be here because you either want to enable the service for some private repositories you maintain or to experiment with the bot by creating a fork. That's awesome !
-
-Note : The simplest (not recommended) solution is to add the bot @pep8speaks as a collaborator to the repositories you want this service to work for. But that does not guarantee the privacy of your code. The following instructions are hence written for maintaining the privacy.
+Note : The simplest (not recommended) solution is to add the bot @RuizTheRuler-bot as a collaborator to the repositories you want this service to work for. But that does not guarantee the privacy of your code. The following instructions are hence written for maintaining the privacy.
 
 # Step 1 : Create a GitHub account
 You need to create a GitHub account for the bot. You'll later add this bot as a collaborator to the repositories you want to enable it for. Basically, it should have the access to see and comment wherever it needs to.
@@ -19,7 +15,7 @@ Here's my favorite button of the moment
 
 Deploy
 
-Pick an app name. How about pep8speaks-{yourusername} ?
+Pick an app name. 
 
 There are some environment variables that you need to add over there. Use the GitHub token we generated in the GITHUB_TOKEN field. Now create a secret and set it to GITHUB_PAYLOAD_SECRET.
 
