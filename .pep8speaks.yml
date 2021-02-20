@@ -35,6 +35,6 @@ message:  # Customize the comment made by the bot
         header: "# Hi! I'll be scanning your code for syntax and style errors each time you submit (commit/push) your assignment.
         footer: ""
     updated:  # Messages when a PR is updated
-        header: "#Hi!\n\nWhat's your name?"
-        footer: "```print("meow")```"
+        header: ".pep8speaks.yml"
+        footer: ""
     no_errors: "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
