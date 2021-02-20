@@ -35,6 +35,6 @@ message:  # Customize the comment made by the bot
         header: "# :wave: Hi!  \n\nI'm a bot created to help you fix the syntax and style errors in your programming assignments. I'll scan your code each time you submit (and re-submit) your program and create a list of necessary corrections.\n\nMy friend **GitHub Action Bot** will also be commenting here. He will notify you of any logic, formatting, or runtime errors in your program. Those will be a little harder to find, but he'll point you in the right direction.\n\n## :pencil: To-do List:\n - [ ] In ```repl.it```, fix the errors outlined by me and the **GitHub Action Bot**.\n\t- *It may be helpful to have both this page and repl.it open* \n- [ ] Commit/push your updated program in ```repl.it```.\n- [ ] Navigate back to this GitHub pull request. \n\t- *In the ```repl.it``` menu you use to commit/push, there is also a link back to this repo. It's under the **Version Control** header.  \n- [ ] Re-open or refresh this pull request to see if we found any more syntax or style errors that need to be fixed.\n- [ ] Complete this process until we both tell you all errors have been fixed.\n## :clipboard: List of errors to correct:"
         footer: ""
     updated:  # Messages when a PR is updated
-        header: "## :clipboard: List of errors to correct:"
+        header: "## :clipboard: Syntax/style errors to correct:"
         footer: ""
-    no_errors: "## :tada: Congratulations!!\nYou've fixed the syntax and style errors in your code. Now, my friend **GitHub Action Bot** will be scanning for logic, formatting, and runtime errors. He'll let you know the results in another comment here."
+    no_errors: ""
