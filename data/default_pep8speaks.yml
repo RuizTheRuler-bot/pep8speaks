@@ -35,6 +35,6 @@ message:  # Customize the comment made by the bot
         header: ""
         footer: ""
     updated:  # Messages when a PR is updated
-        header: ""
-        footer: ""
+        header: "meow"
+        footer: "meow"
     no_errors: "There are currently no PEP 8 issues detected in this Pull Request. Cheers! :beers: "
