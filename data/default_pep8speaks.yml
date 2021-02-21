@@ -1,5 +1,5 @@
 scanner:
-    diff_only: False  # If False, the entire file touched by the Pull Request is scanned for errors. If True, only the diff is scanned.
+    diff_only: False
     linter: flake8
 
 pycodestyle:  # Valid if scanner.linter is pycodestyle
@@ -27,13 +27,13 @@ flake8:  # Valid if scanner.linter is flake8
     select: []
 
 
-no_blank_comment: False  # If True, no comment is made on PR without any errors.
+no_blank_comment: False 
 descending_issues_order: False  # If True, PEP 8 issues in message will be displayed in descending order of line numbers in the file
 only_mention_files_with_errors: True  # If False, a separate status section for each file is made in the comment.
 
 message:  # Customize the comment made by the bot
     opened:  # Messages when a new PR is submitted
-        header: "# :wave: Hi!  \n\nI'm a bot created to help you fix the syntax and style errors in your programming assignments. I'll scan your code each time you submit (and re-submit) your program and create a list of necessary corrections.\n\nMy friend **GitHub Action Bot** will also be commenting here. He will notify you of any logic, formatting, or runtime errors in your program. Those will be a little harder to find, but he'll point you in the right direction.\n\n## :pencil: To-do List:\n - [ ] In ```repl.it```, fix the errors outlined by me and the **GitHub Action Bot**.\n\t- *It may be helpful to have both this page and repl.it open* \n- [ ] Commit/push your updated program in ```repl.it```.\n- [ ] Navigate back to this GitHub pull request. \n\t- *In the ```repl.it``` menu you use to commit/push, there is also a link back to this repo. It's under the **Version Control** header.  \n- [ ] Re-open or refresh this pull request to see if we found any more syntax or style errors that need to be fixed.\n- [ ] Complete this process until we both tell you all errors have been fixed.\n## :clipboard: List of errors to correct:"
+        header: "# :wave: Hi!\nI'm a bot created to help you fix the syntax and style errors in your programming assignments. I'll scan your code each time you submit (and re-submit) your program and create a list of necessary corrections.\n\nMy friend **GitHub Action Bot** will also be commenting here. He will notify you of any logic, formatting, or runtime errors in your program. Those will be a little harder to find, but he'll point you in the right direction.\n\nYou may want to watch this [video](https://youtu.be/gdc-SYhRFCM) our creator made. It demonstrates how we'll help you fix all the errors in your programming assignment.\n\n## :pencil: To-do List:\n- [ ] Open both ```repl.it``` and this Feedback conversation side-by-side on your computer.\n- [ ] Read our bot comments here, and make a few small changes to your program in ```repl.it```.\n- [ ] After each small change you make, resubmit your file from ```repl.it```.\n- [ ] Wait for both bots to scan your new code.\n- [ ] We'll make new comments directing you to fix more errors, -or- letting you know your program is free from errors.\n\n## :clipboard: Syntax/style errors to correct:"
         footer: ""
     updated:  # Messages when a PR is updated
         header: "# :clipboard: Syntax/style errors to correct:"
