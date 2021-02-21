@@ -23,7 +23,7 @@ flake8:  # Valid if scanner.linter is flake8
     show-source: False
     statistics: False
     hang-closing: False
-    filename: []
+    filename: ["src/exercise.py"]
     select: []
 
 no_blank_comment: True  # If True, no comment is made on PR without any errors.
