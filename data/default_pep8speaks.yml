@@ -35,7 +35,7 @@ only_mention_files_with_errors: True
 
 message: 
     opened:  
-        header: "# :wave: Hi!\nEach time you submit your program, It will be scanned by me and my friend **GitHub Action Bot**. I will help you find and fix syntax and style errors, and he will help you find and fix logic, formatting, or runtime errors.\n\n## Debugging Directions\nIt will be easiest to debug your program if you have both replit and this conversation opened side-by-side on your computer.\n\nRead our comments, update and resubmit your code in replit, then wait for us to scan your submission. Repeat this process until we tell you your program has no errors.\n\nThis [video](https://youtu.be/gdc-SYhRFCM) demonstrates how we can help you debug your program."
+        header: ""
         footer: ""
     updated: 
         header: "# :clipboard: Syntax/style errors to correct:"
