@@ -18,8 +18,6 @@ pycodestyle:  # Valid if scanner.linter is pycodestyle
 flake8:  # Valid if scanner.linter is flake8
     max-line-length: 79
     ignore: 
-        - E722
-        - W293
     exclude: ["tests/test_exercise.py"]
     count: False
     show-source: False
