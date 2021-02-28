@@ -120,13 +120,13 @@ def get_config(repo, base_branch, after_commit_hash):
     new_config_text = ""
 
     # Configuration file
-    query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/.ruiztheruler.yml"
+    query = f"https://raw.githubusercontent.com/{repo}/{base_branch}/.pep8speaks.yml"
     r = utils.query_request(query)
 
     if r.status_code == 200:
         new_config_text = r.text
     else:  # Try to look for a config in the head branch of the Pull Request
-        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/.ruiztheruler.yml"
+        new_query = f"https://raw.githubusercontent.com/{repo}/{after_commit_hash}/.pep8speaks.yml"
         r_new = utils.query_request(new_query)
         if r_new.status_code == 200:
             new_config_text = r_new.text
