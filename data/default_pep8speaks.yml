@@ -20,6 +20,7 @@ flake8:  # Valid if scanner.linter is flake8
     ignore: 
         - E722
         - W293
+        - W302
     exclude: ["tests/test_exercise.py"]
     count: False
     show-source: False
