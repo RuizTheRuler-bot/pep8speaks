@@ -16,23 +16,23 @@ pycodestyle:  # Valid if scanner.linter is pycodestyle
     select: []
 
 flake8:  # Valid if scanner.linter is flake8
-#    max-line-length: 127    # github editor is 127 chars wide 
-#    ignore:
-#        - E231
-#        - E262
-#        - E265
-#        - E266
-#        - E722
-#        - F403
-#        - F405
-#        - W2
-#        - W3
-#    exclude: ["tests/test_exercise.py"]
+    max-line-length: 127    # github editor is 127 chars wide 
+    ignore:
+        - E231
+        - E262
+        - E265
+        - E266
+        - E722
+        - F403
+        - F405
+        - W2
+        - W3
+    exclude: ["tests/test_exercise.py"]
     count: False
     show-source: False
     statistics: False
     hang-closing: False
-#    filename: ["src/exercise.py"]
+    filename: ["src/exercise.py"]
     select: []
 
 
